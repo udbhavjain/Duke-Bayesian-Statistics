@@ -73,7 +73,6 @@ for(i in 0:4)
 }
 
 # plot posterior probabilities
-x11()
 plot_bandit_posterior(play_data)
 
 " A mirrored pattern is observed. This is because:
